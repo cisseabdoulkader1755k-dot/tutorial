@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landscape1{
+    background-image: url(landscape1.jpg);
+    background-size: contain; 
+}
+
+.landscape2{
+    background-image: url(landscape2.jpg);
+    background-size: contain;
+}
+.hidden{
+    display: none;
+}
+body{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#menu{
+    border: 1px solid;
+    width: 800px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+header{
+     margin-top: 10px;
+     line-height: 40px;
+}
+select{
+    font: inherit;
+    width: 20vw;
+    margin:0;
+    margin-top: 30px;    
+}
+
+select>option{
+    font: inherit;
+}
+
+#images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    
+}
+.image{
+     border: 1px dashed;
+     height: 160px;
+     
+}
+.player1{
+    background-image: url(Bird1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.player2{
+    background-image: url(Bird2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.player3{
+    background-image: url(Bird3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.player4{
+    background-image: url(Bird4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+#startBtn{
+    font-size: 2rem;
+    margin-top: 2vh;
+    border-radius: 10px;
+    padding: 10px;
+
+}

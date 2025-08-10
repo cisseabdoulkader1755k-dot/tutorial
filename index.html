@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flappy-Bird-Clone</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+     <canvas id="grid" width="800"height="450" class="hidden" ></canvas>
+     <div id="menu" >
+       <header>
+        <div id="message">Welcome back</div>
+        <div>current score=<span id="score">0</span></div>
+       </header>
+       <select id="player">
+         <option value=1>PLAYER1</option>
+         <option value=2>PLAYER2</option>
+         <option value=3>PLAYER3</option>
+         <option value=4>PLAYER4</option>    
+       </select>
+       <select id="background">
+         <option value=1>DAY</option>
+         <option value=2>NIGHT</option>
+       </select>
+       <div id="images">
+            <div class="image" id="playerImg"></div>
+            <div class="image" id="backgroundImg"></div>
+       </div>
+       <button id="startBtn" onclick="start()">Play</button>
+     </div>
+     <script src="index.js"></script>
+   </body>
+</html>
